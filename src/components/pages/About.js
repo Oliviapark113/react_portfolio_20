@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/style.css";
 import "../css/navbar.css";
+import my_mono_profile_img from "../../Portfolio photos/MONO 1_1.jpg"
 
 const About = () => (
 
@@ -17,7 +18,7 @@ const About = () => (
         </div>
         <div className="row">
           <div className="col-lg-4 img column">
-            <img src="Portfolio photos/MONO 1_1.jpg" alt="MyMono 1"
+            <img src={my_mono_profile_img} alt="MyMono 1"
               className="AboutmeImage rounded-circle  shadow  bg-white rounded img-fluid"/>
               </div>
             <div className="col-lg-8 myBio1">
