@@ -5,6 +5,7 @@ import Footer from "./Footer"
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Container from "./pagesComponents/Container";
 
  const PortfolioContainer = ()=> {
 
@@ -41,15 +42,18 @@ const handlePageChange = page => {
 
 
     return (
-      <div>
+      <>
         <Navbar
           currentPage={state.currentPage}
           handlePageChange={handlePageChange}
           toggleBtn = {toggleBtn}
         />
+        <Container> 
         {renderPage()}
+        </Container>
         <Footer/>
-      </div>
+        </>
+     
     );
   
 }
