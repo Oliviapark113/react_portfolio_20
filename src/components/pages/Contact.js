@@ -1,20 +1,38 @@
 import React from "react";
+import "../css/style.css";
+
 
 const Contact = () => (
-  <div>
-    <h1>Contact Page</h1>
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-      Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-      pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-      tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-      posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-      vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-      tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-      condimentum magna, quis tempor nulla.
-    </p>
-  </div>
+
+  <div className="container">
+    <div className="row" style={{marginBottom :350 ,marginTop: 150}}>
+      <div className="col-lg-10 col-md-10 col-sm-10 contact-mainbox">
+        <div className="row">
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <h1>Contact</h1>
+            <p id="contact-info">Please leave your contact info below.</p>
+            <form action="https://formspree.io/f/oliviaypark113@gmail.com" className="form">
+
+              <label>Name:</label>
+              <input className="input hvr-grow" type="name" name="name" />
+              <label>Email:</label>
+              <input className="input hvr-grow" type="email" name="email" />
+              <br/>
+                <label>Message:</label>
+                <input className="input hvr-grow" type="message" name="message" />
+
+            </form>
+              </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12">
+              <button type="submit" className="submit hvr-grow">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
 );
 
 export default Contact;

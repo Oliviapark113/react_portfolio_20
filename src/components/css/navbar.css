@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var( --background-color);
+    padding: 10px;
+    position: relative;
+    
+}
+
+.navbar-initial{
+    color: var(--text-color);
+    font-size: 28px;
+}
+
+.navbar-list{
+    list-style: none;
+    display:flex;
+    padding-left:0;
+
+}
+
+.navbar-list li{
+    padding: 10px;
+    font-size: 28px;   
+
+}
+
+.navbar-list li a{
+    color: var(--text-color);
+    font-size: 28px;
+    text-decoration-style: none;
+}
+
+
+
+.navbar-list li:hover {
+    background-color: var(--accent2-color);
+    border-radius: 5px;
+    padding:5px;
+    font-weight: bold;
+}
+
+.navbar-icons {
+    color: var(--accent2-color);
+    list-style-type: none;
+    display:flex;
+    font-size: 28px;
+    padding-left:0;
+
+}
+
+.navbar-icons li {
+padding: 8px;
+
+}
+
+.navbar-toggleBtn{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 28px;
+    color:var(--accent2-color);
+    display: none;
+
+}
+#signature{
+    color: var(--text-color);
+    font-family: 'Allura', cursive;
+    font-size: 28px;
+
+}
+
+#lastName {
+color: var( --background-color);
+font-family: 'Allura', cursive;
+font-size: 42px;
+
+}    
+
+
+@media screen and (max-width:768px){
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .navbar-list{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: none;
+    
+    }
+
+    .navbar-list li {
+    width: 100%;
+    text-align: center;
+
+    }
+
+    .navbar-list a {
+      font-size: 18px;
+
+    }
+
+    .navbar-icons {
+        justify-content: center;
+    width: 100%;
+    display:none;}
+
+    .navbar-toggleBtn{
+        display: block;
+    }
+
+    .navbar-list.active,
+    .navbar-icons.active{
+        display: flex;
+    }
+
+
+
+}
