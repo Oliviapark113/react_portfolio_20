@@ -19,7 +19,7 @@ const Portfoilio_ = () => (
               return(
 
                   <div className="row">
-                      <h3 className="project-title">{data.projectTitleh3}<span id="service">{data.span} </span></h3>
+                      <h3 className="project-title">{data.projectTitleh3} <br/> <span id="service">{data.span} </span></h3>
                       <div className="myphoto">
                           <div className="image-wrapper">
                               <div className="desk-image">

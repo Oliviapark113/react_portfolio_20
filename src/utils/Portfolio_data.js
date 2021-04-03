@@ -48,14 +48,6 @@ const Portfolio_Data = [
         viewCode: "https://github.com/Oliviapark113/note_taker_11"
 
     },
-    // {
-    //     projectTitleh3: "EMPLOYEE",
-    //     span: "Data Tracker",
-    //     image1: employee_data_tracker_demo,
-    //     techniques: "JAVASCRIPT, MYSQL, NODE JS, NPM INQUIRER",
-    //     viewCode: "https://github.com/Oliviapark113/note_taker_11"
-
-    // },
 
     {
         projectTitleh3: "WEATHER OR NOT",

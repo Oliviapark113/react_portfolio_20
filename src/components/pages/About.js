@@ -2,13 +2,12 @@ import React from "react";
 import "../css/style.css";
 import "../css/navbar.css";
 import my_mono_profile_img from "../../Portfolio_photos/MONO 1_1.jpg"
+import Container from "../pagesComponents/Container"
 
 const About = () => (
-
-  <div className="container ">
-
-    <div className="row">
+  <Container>
       <div className="col-lg-12 mainbox">
+        
         <div className="row">
           <div className="col-lg-12">
             <h1>About Me</h1>
@@ -29,10 +28,9 @@ const About = () => (
 
                     I am an innovative and collaborative full-stack web developer
                     with problem solving skill and seeking for new opportunities in software engineer career.
-
-
               </div>
         </div>
+
         <div className="row">
           <div className="col-lg-12 myBio2">
             <div className="col-lg-6 skill-box">
@@ -68,8 +66,8 @@ const About = () => (
 
         </div>
       </div>
-    </div>
-  </div>
+ 
+  </Container>
 
 );
 

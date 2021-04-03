@@ -61,7 +61,7 @@
   .project-title {
     display: block;
 
-    margin: 13px auto 0px auto;
+    margin: 13px auto 20px auto;
     text-align: center;
     font-weight: 300;
     font-size: 24px;
@@ -70,6 +70,7 @@
   #service{
     font-family: 'Allura', cursive;
     font-size: 42px;
+   
   }
 .techniques{
   text-align: center;
