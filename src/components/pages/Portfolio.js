@@ -1,5 +1,23 @@
 import React from "react";
 import "../css/portfolio.css";
+// import "../../Portfolio photos/closet_full_img"
+import demofullview from "../../demo/fullview.gif"
+import closet_responsive_img from "../../Portfolio photos/closet_responsive_img.jpg"
+import eatda_burger_demo from "../../demo/demo 2.gif"
+import eatda_burger_responsive_img from "../../Portfolio photos/eatdaburger_responsive_img.jpg"
+import note_taker_demo from "../../demo/demo3.gif"
+import note_taker_responsive_img from "../../Portfolio photos/notetaker_responsive_img.jpg"
+import employee_data_tracker_demo from "../../demo/demo4.gif"
+import project7_fullscreen_img from "../../Portfolio photos/full video view.jpg"
+import project7_responsive_img from "../../Portfolio photos/responsive_full_original.jpg"
+import weather_dashboard_fullscreen_img from "../../Portfolio photos/wdfull view.jpg"
+import weather_dashboard_responsive_img from "../../Portfolio photos/wdresponsive_full_original.jpg"
+import realtime_dayPlanner_fullscreen_img from "../../Portfolio photos/scfull view.jpg"
+import realtime_dayPlanner_responsive_img from "../../Portfolio photos/scresponsive_full_original.jpg"
+import timed_quiz_fullscreen_img from "../../Portfolio photos/quizfull view.jpg"
+import timed_quiz_responsive_img from "../../Portfolio photos/quizresponsive_full_original.jpg"
+
+
 
 const Portfolio = () => (
 
@@ -17,11 +35,11 @@ const Portfolio = () => (
               <div className="myphoto">
                   <div className="image-wrapper">
                       <div className="desk-image">
-                          <img src="demo/fullview.gif" alt="code closet-2 full screen"
+                          <img src={ demofullview } alt="code closet-2 full screen"
                               className="img-thumbnail img-fluid"/>
                       </div>
                       <div className="mobile-image">
-                          <img src="Portfolio photos/closet_responsive_img.jpg" alt="code closet-2 responsive"
+                          <img src={closet_responsive_img } alt="code closet-2 responsive"
                               className="img-thumbnail img-fluid"/>
                       </div>
                   </div>
@@ -47,11 +65,11 @@ const Portfolio = () => (
               <div className="myphoto">
                   <div className="image-wrapper">
                       <div className="desk-image">
-                          <img src="demo/demo 2.gif" alt="eat-da burger full screen"
+                          <img src={eatda_burger_demo} alt="eat-da burger full screen"
                               className="img-thumbnail img-fluid"/>
                       </div>
                       <div className="mobile-image">
-                          <img src="Portfolio photos/eatdaburger_responsive_img.jpg" alt="eat-da burger responsive"
+                          <img src={eatda_burger_responsive_img} alt="eat-da burger responsive"
                               className="img-thumbnail img-fluid"/>
                       </div>
                   </div>
@@ -78,11 +96,11 @@ const Portfolio = () => (
               <div className="myphoto">
                   <div className="image-wrapper">
                       <div className="desk-image">
-                          <img src="demo/demo3.gif" alt="note taker full screen"
+                          <img src={note_taker_demo} alt="note taker full screen"
                               className="img-thumbnail img-fluid"/>
                       </div>
                       <div className="mobile-image">
-                          <img src="Portfolio photos/notetaker_responsive_img.jpg" alt="note-taker responsive"
+                          <img src={note_taker_responsive_img} alt="note-taker responsive"
                               className="img-thumbnail img-fluid"/>
                       </div>
                   </div>
@@ -112,7 +130,7 @@ const Portfolio = () => (
           
               <div className="col-lg-12 notetaker">
                   <div className="notetaker-img">
-                      <img src="demo/demo4.gif" alt="note taker full screen" className=" img-thumbnail img-fluid"/>
+                      <img src={employee_data_tracker_demo} alt="note taker full screen" className=" img-thumbnail img-fluid"/>
                   </div>
               </div>    
           
@@ -134,11 +152,11 @@ const Portfolio = () => (
               <div className="myphoto">
                   <div className="image-wrapper">
                       <div className="desk-image">
-                          <img src="Portfolio photos/full video view.jpg" alt="project7 full screen"
+                          <img src={project7_fullscreen_img} alt="project7 full screen"
                               className="img-thumbnail img-fluid"/>
                       </div>
                       <div className="mobile-image">
-                          <img src="Portfolio photos/responsive_full_original.jpg" alt="project7 responsive"
+                          <img src={project7_responsive_img} alt="project7 responsive"
                               className="img-thumbnail img-fluid"/>
                       </div>
                   </div>
@@ -165,11 +183,11 @@ const Portfolio = () => (
               <div className="myphoto">
                   <div className="image-wrapper">
                       <div className="desk-image">
-                          <img src="Portfolio photos/wdfull view.jpg" alt="weather_dashboard_06 full screen"
+                          <img src={weather_dashboard_fullscreen_img} alt="weather_dashboard_06 full screen"
                               className="img-thumbnail img-fluid"/>
                       </div>
                       <div className="mobile-image">
-                          <img src="Portfolio photos/wdresponsive_full_original.jpg"
+                          <img src={weather_dashboard_responsive_img}
                               alt="weather_dashboard_06 responsive" className="img-thumbnail img-fluid"/>
                       </div>
                   </div>
@@ -195,11 +213,11 @@ const Portfolio = () => (
               <div className="myphoto">
                   <div className="image-wrapper">
                       <div className="desk-image">
-                          <img src="Portfolio photos/scfull view.jpg" alt="realtime_dayPlanner_05 full screen"
+                          <img src={realtime_dayPlanner_fullscreen_img} alt="realtime_dayPlanner_05 full screen"
                               className="img-thumbnail img-fluid"/>
                       </div>
                       <div className="mobile-image">
-                          <img src="Portfolio photos/scresponsive_full_original.jpg"
+                          <img src={realtime_dayPlanner_responsive_img}
                               alt="realtime_dayPlanner_05 responsive" className="img-thumbnail img-fluid"/>
                       </div>
                   </div>
@@ -225,11 +243,11 @@ const Portfolio = () => (
               <div className="myphoto">
                   <div className="image-wrapper">
                       <div className="desk-image">
-                          <img src="Portfolio photos/quizfull view.jpg" alt="timed_quiz_04 full screen"
+                          <img src={timed_quiz_fullscreen_img } alt="timed_quiz_04 full screen"
                               className="img-thumbnail img-fluid"/>
                       </div>
                       <div className="mobile-image">
-                          <img src="Portfolio photos/quizresponsive_full_original.jpg"
+                          <img src={timed_quiz_responsive_img}
                               alt="times_quiz_04 responsive" className="img-thumbnail img-fluid"/>
                       </div>
                   </div>
