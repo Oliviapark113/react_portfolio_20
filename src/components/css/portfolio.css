@@ -1,0 +1,159 @@
+#portfolio{
+  margin: 10px;
+}
+.row{
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
+.image-wrapper 
+{
+ display: flex;
+ width: 90%;
+
+}
+
+.image-wrapper img
+{
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.desk-image{
+  flex:calc(1430/832);
+  margin-right: 10px;
+  transition: var(--size-animation-duration) ease;
+  box-shadow: 1px 1px 16px rgba(0,0,0,.75);
+}
+
+.desk-image:hover{
+  transform: scale(1.1)
+}
+
+.mobile-image{
+  flex:calc(644/2009);
+  transition: var(--size-animation-duration) ease;
+  box-shadow: 1px 1px 16px rgba(0,0,0,.75);
+}
+
+.mobile-image:hover{
+  transform: scale(1.1)
+}
+
+.myphoto{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding:0;
+}
+
+.img-thumbnail{
+    display: block;
+    padding:0;
+    background-color:none; 
+    border:solid darkgray .5px;;
+    }
+
+
+  .project-title {
+    display: block;
+
+    margin: 13px auto 0px auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+  }
+  
+  #service{
+    font-family: 'Allura', cursive;
+    font-size: 42px;
+  }
+.techniques{
+  text-align: center;
+  margin-top:15px;
+  padding:0;
+}
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+  
+  }
+
+  #view-site,
+  #view-code
+  {
+    background-color:var(   --background-color);
+    color:var(--text-color);
+    padding: 5px;
+    border-radius: 5px;
+    border-top:var(--background-color);
+    margin:5px;
+    cursor: pointer;
+    transition: var(--size-animation-duration) ease;
+
+  }
+
+  #view-site:hover{
+    background-color:var(--accent2-color);
+    color:var(--text-color);
+    transform: scale(1.1)
+
+  }  
+
+
+  #view-code:hover{
+    background-color:var(--accent2-color);
+    color:var(--text-color);
+    transform: scale(1.1)
+
+  }
+
+  .notetaker{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+  }
+
+  .notetaker-img{
+       transition: var(--size-animation-duration) ease;
+       box-shadow: 1px 1px 16px rgba(0,0,0,.75);  
+  }
+
+  .notetaker-img:hover{
+    transform: scale(1.1)
+  }
+
+  @media screen and (max-width:768px){
+
+
+  .portfolio-mainbox{
+    background-color:transparent;
+    margin:0 0 40px 0;
+  }
+
+  .project-title{
+     font-size: 20px;
+  }
+  
+  #view-site,
+  #view-code{
+    font-size: 16px;
+  }
+
+  #portfolio{
+    font-size: 42px;
+  }
+
+
+
+
+  }
+    
+
