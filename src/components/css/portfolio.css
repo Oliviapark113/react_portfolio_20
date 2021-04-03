@@ -64,7 +64,8 @@
     margin: 13px auto 20px auto;
     text-align: center;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 28px;
+    /* font-weight: bold; */
   }
   
   #service{
