@@ -2,7 +2,7 @@ import React from "react";
 import "./css/style.css";
 import "./css/navbar.css";
 
-function Navbar({handlePageChange,currentPage}) {
+function Navbar({handlePageChange,currentPage,toggleBtn}) {
   return (
     <nav className="navbar">
     <div className="navbar-logo">
@@ -45,7 +45,7 @@ function Navbar({handlePageChange,currentPage}) {
 
     </ul>
 
-    <div className="navbar-toggleBtn">
+    <div className="navbar-toggleBtn" onClick={toggleBtn}>
         <i className="fas fa-bars"></i>
     </div>
 </nav>
