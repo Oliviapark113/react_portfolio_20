@@ -19,19 +19,14 @@ const About = () => (
       <div className="row">
         <Biobox>
           <SkillBox>
-            <Skillset/>
+            <Skillset />
           </SkillBox>
 
           <SkillBox>
-            <Otherskillset/>
+            <Otherskillset />
           </SkillBox>
-          </Biobox>
-
-
+        </Biobox>
       </div>
-
-
-
     </Mainbox>
   </Container>
 
