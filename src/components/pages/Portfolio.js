@@ -2,7 +2,8 @@ import React from "react";
 import "../css/portfolio.css"
 import Container from "../pagesComponents/Container"
 import Portfolio_Data from "../../utils/Portfolio_data"
-
+import Image1 from "../pagesComponents/PortfolioPage/image1"
+import Image2 from "../pagesComponents/PortfolioPage/image1"
 
 const Portfoilio_ = () => (
 
@@ -23,12 +24,10 @@ const Portfoilio_ = () => (
                       <div className="myphoto">
                           <div className="image-wrapper">
                               <div className="desk-image">
-                                  <img src={data.image1} alt={data.projectTitleh3}
-                                      className="img-thumbnail img-fluid" />
+                                  <Image1 src={data.image1} alt={data.projectTitleh3}/>
                               </div>
                               <div className="mobile-image">
-                                  <img src={data.image2} alt={data.projectTitleh3}
-                                      className="img-thumbnail img-fluid" />
+                                <Image2 src={data.image2} alt={data.projectTitleh3}/>
                               </div>
                           </div>
                       </div>
