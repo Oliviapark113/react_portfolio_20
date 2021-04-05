@@ -1,3 +1,4 @@
+           
             body{
                 box-sizing: border-box;
                 /* font-family: 'Grenze Gotisch', cursive; */
@@ -193,46 +194,6 @@
             }
 
             @media screen and (max-width:768px){
-               
-
-                .navbar{
-                    flex-direction: column;
-                    align-items: flex-start;
-            
-                }
-                .navbar-list{
-            
-                    flex-direction: column;
-                    align-items: center;
-                    width: 100%;
-                    display: none;
-                
-                }
-            
-                .navbar-list li {
-                width: 100%;
-                text-align: center;
-            
-            }
-
-            .navbar-list a {
-             font-size: 18px;
-            
-            }
-            
-                .navbar-icons {
-                    justify-content: center;
-                width: 100%;
-                display:none;}
-            
-                .navbar-toggleBtn{
-                    display: block;
-                }
-            
-                .navbar-list.active,
-                .navbar-icons.active{
-                    display: flex;
-                }
 
                 .AboutmeImage{
                     display: block;
@@ -263,16 +224,12 @@
                     margin-bottom: 15px;
                 }
                 
-                /* .contact-mainbox { 
-                    background-image: url('Portfolio photos/media_bg_paper.jpg');
+                .contact-mainbox { 
+                    background-image: url('../../Portfolio_photos/media_bg_paper.jpg');
                     
-                
-            } 
-             */
+                } 
             
-            
-
-                
+ 
             } 
 
 

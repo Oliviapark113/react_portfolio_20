@@ -1,75 +1,56 @@
-# React_portfolio_20
+# [React_portfolio_20](https://github.com/Oliviapark113/react_portfolio_20)
 
+## Deployed Website:
+## [React_Portfolio_20](https://oliviapark113.github.io/react_portfolio_20/)
 
+### Aboutme page, Portfolio and Contact 
+### Refactor all using `REACT` APP
+-  Layout: *BootStrap's Grid system*
+-  Pseudo Class:  *hover.css*
+- Fonts:  *Google fonts*
+-  Icons:  *fontsawesome*
+-  Javascript:  *element.classList.toggle("classname")* for toggle menu bar.
+-  media queries: for *Responsive web page*
 
+### Portfolio demo with recent projects 
+![demo](./src/demo/portfolio.gif)
 
-# Getting Started with Create React App
+##### About me full screen view
+![about-me desk-top view](./src/Portfolio_photos/about-1.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Update with technical skills and other skills
 
-## Available Scripts
+##### Contact page full screen view
 
-In the project directory, you can run:
+![contact-page desk-top view](./src/Portfolio_photos/contact-1.jpg)
 
-### `npm start`
+##### Portfolio page full screen view
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Display full screen view and responsive view next to each other 
+  when click "VIEW SITE" : links to deployed wen page "VIEW CODE" : direct to Git-hub page to view code and readme. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![portfolio-page desk-top view](./src/Portfolio_photos/full%20_video_view.jpg)
 
-### `npm test`
+##### Responsive Nav-Bar 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Top-left corner has 4 icons: 
+ 1.Git-Hub page 
+ 2.Linked-In page 
+ 3.Email 
+ 4.Download to resume
+ ![link desk-top view](.src/../src/Portfolio_photos/link-1.jpg)
+- This Nav bar also featuring as *responsive*.
+when window size gets smaller all menus invisible. 
+and small blue *hamberger icon* will appear at top right side of corner of the nav bar. 
 
-### `npm run build`
+- Once you click *hamberger bar* all menus appear. 
+   
+ ![link desk-top view](./src/Portfolio_photos/link-2.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### RESPONSIVE VIEW 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ![about-me responsive view](./src/Portfolio_photos/about-2.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ![contact-page responsive view](./src/Portfolio_photos/contact-2.jpg)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ![portfolio-page responsive view](./src/Portfolio_photo/../Portfolio_photos/portfolio-4.jpg)
