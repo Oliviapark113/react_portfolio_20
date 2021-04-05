@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/react_portfolio_20/static/css/main.5cd0c0af.chunk.css",
+    "main.js": "/react_portfolio_20/static/js/main.6a3a2a43.chunk.js",
+    "main.js.map": "/react_portfolio_20/static/js/main.6a3a2a43.chunk.js.map",
+    "runtime-main.js": "/react_portfolio_20/static/js/runtime-main.17a8d727.js",
+    "runtime-main.js.map": "/react_portfolio_20/static/js/runtime-main.17a8d727.js.map",
+    "static/js/2.7407406b.chunk.js": "/react_portfolio_20/static/js/2.7407406b.chunk.js",
+    "static/js/2.7407406b.chunk.js.map": "/react_portfolio_20/static/js/2.7407406b.chunk.js.map",
+    "static/js/3.58affc9d.chunk.js": "/react_portfolio_20/static/js/3.58affc9d.chunk.js",
+    "static/js/3.58affc9d.chunk.js.map": "/react_portfolio_20/static/js/3.58affc9d.chunk.js.map",
+    "index.html": "/react_portfolio_20/index.html",
+    "static/css/main.5cd0c0af.chunk.css.map": "/react_portfolio_20/static/css/main.5cd0c0af.chunk.css.map",
+    "static/js/2.7407406b.chunk.js.LICENSE.txt": "/react_portfolio_20/static/js/2.7407406b.chunk.js.LICENSE.txt",
+    "static/media/MONO 1_1.d67232a5.jpg": "/react_portfolio_20/static/media/MONO 1_1.d67232a5.jpg",
+    "static/media/closet_responsive_img.450e2a47.jpg": "/react_portfolio_20/static/media/closet_responsive_img.450e2a47.jpg",
+    "static/media/demo 2.51f57fef.gif": "/react_portfolio_20/static/media/demo 2.51f57fef.gif",
+    "static/media/demo3.91a0b8f9.gif": "/react_portfolio_20/static/media/demo3.91a0b8f9.gif",
+    "static/media/demo4.ee6ce0cf.gif": "/react_portfolio_20/static/media/demo4.ee6ce0cf.gif",
+    "static/media/eatdaburger_responsive_img.7c1531a5.jpg": "/react_portfolio_20/static/media/eatdaburger_responsive_img.7c1531a5.jpg",
+    "static/media/full _video_view.f00571aa.jpg": "/react_portfolio_20/static/media/full _video_view.f00571aa.jpg",
+    "static/media/fullview.cb1a699c.gif": "/react_portfolio_20/static/media/fullview.cb1a699c.gif",
+    "static/media/style.css": "/react_portfolio_20/static/media/media_bg_paper.fc8e7d99.jpg",
+    "static/media/notetaker_responsive_img.a0dd0cd1.jpg": "/react_portfolio_20/static/media/notetaker_responsive_img.a0dd0cd1.jpg",
+    "static/media/quizfull_view.c38d1619.jpg": "/react_portfolio_20/static/media/quizfull_view.c38d1619.jpg",
+    "static/media/quizresponsive_full_original.d09ba2fb.jpg": "/react_portfolio_20/static/media/quizresponsive_full_original.d09ba2fb.jpg",
+    "static/media/responsive_full_original.1498cb70.jpg": "/react_portfolio_20/static/media/responsive_full_original.1498cb70.jpg",
+    "static/media/scfull_view.2bf66f29.jpg": "/react_portfolio_20/static/media/scfull_view.2bf66f29.jpg",
+    "static/media/scresponsive_full_original.bfd3290f.jpg": "/react_portfolio_20/static/media/scresponsive_full_original.bfd3290f.jpg",
+    "static/media/wdfull_view.7cdda25d.jpg": "/react_portfolio_20/static/media/wdfull_view.7cdda25d.jpg",
+    "static/media/wdresponsive_full_original.b0996524.jpg": "/react_portfolio_20/static/media/wdresponsive_full_original.b0996524.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17a8d727.js",
+    "static/js/2.7407406b.chunk.js",
+    "static/css/main.5cd0c0af.chunk.css",
+    "static/js/main.6a3a2a43.chunk.js"
+  ]
+}
