@@ -7,7 +7,7 @@
                 color: var(--background-color);
                 height:100%;
                 background-color:var(--body-color);
-                font-size: 18px;
+                font-size: 22px;
                 margin:0;
                 padding:0;
             }
@@ -24,13 +24,13 @@
              --size-animation-duration: 300ms
             }
        
-            .mainbox, 
-            .portfolio-mainbox
+            .mainbox
             {
                 background-color: whitesmoke; 
-                padding: 20px;
+                padding: 30px;
                 margin-top: 100px;
                 margin-bottom: 150px;
+           
             }
 
 
@@ -55,7 +55,7 @@
             }
 
             p{
-                font-size: 20px;
+                font-size: 22px;
             }
 
             .AboutmeImage{
@@ -68,7 +68,7 @@
 
             .myBio1{
                 line-height: 1.6;
-                font-size: 20px;
+                font-size: 22px;
                 padding:12px;
                 margin-top:10px;
             }
@@ -78,7 +78,7 @@
                 flex-direction: row; 
                 justify-content: center;
                 line-height: 1.6;
-                font-size: 24px;
+                font-size: 26px;
                 padding: 10px;
                 margin-top: 15px;
             
@@ -98,7 +98,7 @@
                 list-style-type: none;
                 padding-left:0;
                 text-align:center;
-                font-size: 18px;
+                font-size: 22px;
                 font-weight: 380;
             }
             .skill-header{

@@ -12,8 +12,9 @@ const Skillset = () =>(
       <li>API</li>
       <li>NODE.JS</li>
       <li>EXPRESS.JS</li>
-      <li>MY SQL/SEQUELIZE</li>
-      <li>MONGO DB</li>
+      <li>MY SQL & SEQUELIZE</li>
+      <li>MONGO DB & MONGOOSE</li>
+      <li>REACT </li>
     </ul>
     </>
 )
