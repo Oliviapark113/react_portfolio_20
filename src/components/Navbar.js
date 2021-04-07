@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/style.css";
 import "./css/navbar.css";
+import Resume from "../components/pages/Resume"
 
 function Navbar({handlePageChange,currentPage,toggleBtn}) {
   return (
@@ -39,8 +40,12 @@ function Navbar({handlePageChange,currentPage,toggleBtn}) {
         <li className="hvr-icon-grow-rotate"><a href="mailto:oliviaypark113@gmail.com"
                 title="oliviaypark113@gmail.com"><i className="fas fa-envelope hvr-icon "></i></a> </li>
 
-        <li className="hvr-icon-grow-rotate"><a href="oyp_resume.pdf" title="resume" download target="_blank"><i
-                    className="fas fa-file hvr-icon"></i></a> </li>
+
+            <li className="hvr-icon-grow-rotate">
+          <a href="#resume"   onClick={() => handlePageChange("Resume")}
+               classNameName={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+          >
+            <i className="fas fa-file hvr-icon"></i></a> </li>
 
 
     </ul>

@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Container from "./pagesComponents/Container";
+import Resume from "./pages/Resume";
 
  const PortfolioContainer = ()=> {
 
@@ -26,6 +27,11 @@ const handlePageChange = page => {
     } else if(state.currentPage === "Portfolio"){
       return <Portfolio />;
     } 
+    else if(state.currentPage === "Resume"){
+      return <Resume />;
+    } 
+
+    
   };
 
  
