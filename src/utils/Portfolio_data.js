@@ -1,4 +1,4 @@
-import challenge_demo from "../demo/challenge_demo_1.gif"
+import project3_demo from "../demo/project3_demo.gif"
 
 import project3_responsive_img from "../Portfolio_photos/project3_responsive_img.jpg"
 import demofullview from "../demo/fullview.gif"
@@ -23,7 +23,7 @@ const Portfolio_Data = [
     {
         projectTitleh3: "MORNING CUP OF JAVASCRIPT",
         span: "Place for developers",
-        image1: challenge_demo,
+        image1: project3_demo,
         image2: project3_responsive_img,
         techniques: "REACT, MONODB, EXPRESS, AXIOS, DOMPURIFY, REACT-ACE-EDITOR, MARKED",
         viewSite: "https://secure-wave-92624.herokuapp.com/",
