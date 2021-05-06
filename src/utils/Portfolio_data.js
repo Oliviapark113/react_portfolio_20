@@ -1,6 +1,7 @@
 import project3_demo from "../demo/project3_demo.gif"
-
 import project3_responsive_img from "../Portfolio_photos/project3_responsive_img.jpg"
+import booksearch_demo from "../demo/booksearch_demo.gif"
+import booksearch_responsive_img from "../Portfolio_photos/booksearch_responsive_img.jpg"
 import demofullview from "../demo/fullview.gif"
 import closet_responsive_img from "../Portfolio_photos/closet_responsive_img.jpg"
 import eatda_burger_demo from "../demo/demo 2.gif"
@@ -28,6 +29,18 @@ const Portfolio_Data = [
         techniques: "REACT, MONODB, EXPRESS, AXIOS, DOMPURIFY, REACT-ACE-EDITOR, MARKED",
         viewSite: "https://secure-wave-92624.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/morning_cup_of_javascript"
+
+    },
+
+
+    {
+        projectTitleh3: "GOOGLE BOOK SEARCH",
+        span: "Find book you need",
+        image1: booksearch_demo ,
+        image2: booksearch_responsive_img,
+        techniques: "REACT, MONODB, EXPRESS, AXIOS, API",
+        viewSite: "https://polar-lowlands-42713.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/google_books_search_21"
 
     },
     {
