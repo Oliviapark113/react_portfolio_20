@@ -2,13 +2,14 @@ import project3_demo from "../demo/project3_demo.gif"
 import project3_responsive_img from "../Portfolio_photos/project3_responsive_img.jpg"
 import booksearch_demo from "../demo/booksearch_demo.gif"
 import booksearch_responsive_img from "../Portfolio_photos/booksearch_responsive_img.jpg"
+import synthpad_demo from "../demo/synthPad_demo.gif"
+import synthpad_responsive_img from "../Portfolio_photos/synthpad_responsive_img.jpg"
 import demofullview from "../demo/fullview.gif"
 import closet_responsive_img from "../Portfolio_photos/closet_responsive_img.jpg"
 import eatda_burger_demo from "../demo/demo 2.gif"
 import eatda_burger_responsive_img from "../Portfolio_photos/eatdaburger_responsive_img.jpg"
 import note_taker_demo from "../demo/demo3.gif"
 import note_taker_responsive_img from "../Portfolio_photos/notetaker_responsive_img.jpg"
-import employee_data_tracker_demo from "../demo/demo4.gif"
 import project7_fullscreen_demo from "../demo/project7_demo.gif"
 import project7_responsive_img from "../Portfolio_photos/responsive_full_original.jpg"
 import weather_dashboard_fullscreen_img from "../Portfolio_photos/wdfull_view.jpg"
@@ -41,6 +42,17 @@ const Portfolio_Data = [
         techniques: "REACT, MONODB, EXPRESS, AXIOS, API",
         viewSite: "https://polar-lowlands-42713.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/google_books_search_21"
+
+    },
+
+    {
+        projectTitleh3: "REACT SYNTH PAD",
+        span: "Play your own sound",
+        image1: synthpad_demo  ,
+        image2: synthpad_responsive_img,
+        techniques: "REACT, REACT-DIAL-KNOB, REACT CUSTOM HOOK, JSON, REACT-STYLED-COMPONENTS",
+        viewSite: "https://oliviapark113.github.io/react_synthPad_2021/",
+        viewCode: "https://github.com/Oliviapark113/react_synthPad_2021"
 
     },
     {
