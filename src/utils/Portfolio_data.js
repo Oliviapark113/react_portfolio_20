@@ -2,6 +2,8 @@ import project3_demo from "../demo/project3_demo.gif"
 import project3_responsive_img from "../Portfolio_photos/project3_responsive_img.jpg"
 import booksearch_demo from "../demo/booksearch_demo.gif"
 import booksearch_responsive_img from "../Portfolio_photos/booksearch_responsive_img.jpg"
+import doodle_demo from "../demo/doodlestarter.gif"
+import doodle_responsive_img from "../Portfolio_photos/doodle_responsive_img.jpg"
 import synthpad_demo from "../demo/synthPad_demo.gif"
 import synthpad_responsive_img from "../Portfolio_photos/synthpad_responsive_img.jpg"
 import demofullview from "../demo/fullview.gif"
@@ -42,6 +44,18 @@ const Portfolio_Data = [
         techniques: "REACT, MONODB, EXPRESS, AXIOS, API",
         viewSite: "https://polar-lowlands-42713.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/google_books_search_21"
+
+    },
+
+
+    {
+        projectTitleh3: "MY DAILY DOODLE STARTER",
+        span: "drawing your thoughts",
+        image1: doodle_demo,
+        image2: doodle_responsive_img,
+        techniques: "REACT, MONODB, EXPRESS, AXIOS",
+        viewSite: "https://desolate-harbor-56312.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/my_daily_doodle_starter"
 
     },
 
