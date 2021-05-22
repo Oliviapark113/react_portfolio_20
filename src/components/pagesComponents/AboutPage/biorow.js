@@ -11,8 +11,7 @@ const Biorow = () =>(
         <div className="col-lg-8 myBio1">
             My name is Olivia Park.<br />
           I am a passionate coder and love challenge myself creatively.<br />
-            With a fashion desginer background, using designer aesthetic to create stylish website with
-            whimscal twist.
+            With a 20+ years experience as fashion design in NYC,<br /> I have skilled at creative web design using current best practices in web development.
             <br />
 
               I am an innovative and collaborative full-stack web developer

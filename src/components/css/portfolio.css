@@ -1,9 +1,13 @@
 #portfolio{
   margin: 10px;
+  font-family: 'Allura', cursive;
+  font-weight: bolder;
+  font-size: 100px;
 }
+
 .row{
-  margin-top:40px;
-  margin-bottom:40px;
+  margin-top:50px;
+  margin-bottom:50px;
 }
 
 .image-wrapper 

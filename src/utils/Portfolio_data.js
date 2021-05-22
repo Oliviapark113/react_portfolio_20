@@ -29,7 +29,7 @@ const Portfolio_Data = [
         span: "Place for developers",
         image1: project3_demo,
         image2: project3_responsive_img,
-        techniques: "REACT, MONODB, EXPRESS, AXIOS, DOMPURIFY, REACT-ACE-EDITOR, MARKED",
+        techniques: "MERN | REACT | API | MONODB, MONGOOSE | EXPRESS | NODE.JS",
         viewSite: "https://secure-wave-92624.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/morning_cup_of_javascript"
 
@@ -41,7 +41,7 @@ const Portfolio_Data = [
         span: "Find book you need",
         image1: booksearch_demo ,
         image2: booksearch_responsive_img,
-        techniques: "REACT, MONODB, EXPRESS, AXIOS, API",
+        techniques: "MERN | REACT | API | MONODB, MONGOOSE | EXPRESS | NODE.JS",
         viewSite: "https://polar-lowlands-42713.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/google_books_search_21"
 
@@ -53,7 +53,7 @@ const Portfolio_Data = [
         span: "drawing your thoughts",
         image1: doodle_demo,
         image2: doodle_responsive_img,
-        techniques: "REACT, MONODB, EXPRESS, AXIOS",
+        techniques: "MERN | REACT | API | MONODB, MONGOOSE | EXPRESS | NODE.JS",
         viewSite: "https://desolate-harbor-56312.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/my_daily_doodle_starter"
 
@@ -64,7 +64,7 @@ const Portfolio_Data = [
         span: "Play your own sound",
         image1: synthpad_demo  ,
         image2: synthpad_responsive_img,
-        techniques: "REACT, REACT-DIAL-KNOB, REACT CUSTOM HOOK, JSON, REACT-STYLED-COMPONENTS",
+        techniques: "REACT | NODE.JS",
         viewSite: "https://oliviapark113.github.io/react_synthPad_2021/",
         viewCode: "https://github.com/Oliviapark113/react_synthPad_2021"
 
@@ -74,7 +74,7 @@ const Portfolio_Data = [
         span: "Code until You're cold",
         image1: demofullview,
         image2: closet_responsive_img,
-        techniques: "EXPRESS HANDLEBARS, CSS, BOOTSTRAP, JAVASCRIPT, EXPRESS, SEQUELIZE, NODE JS",
+        techniques: "HTML | HANDLEBARS.JS | CSS | JAVASCRIPT, JQUERY | EXPRESS | SEQUELIZE | NODE.JS",
         viewSite: "https://stormy-stream-41757.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/CodeCloset-P2"
 
@@ -85,7 +85,7 @@ const Portfolio_Data = [
         span: "DA Burgers",
         image1: eatda_burger_demo,
         image2: eatda_burger_responsive_img,
-        techniques: "EXPRESS HANDLEBARS, CSS, BOOTSTRAP, JAVASCRIPT, EXPRESS, SEQUELIZE, NODE JS",
+        techniques: "HANDLEBARS.JS | CSS | JAVASCRIPT | EXPRESS | SEQUELIZE | NODE.JS",
         viewSite: "https://evening-castle-79713.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/burgerapp_13"
 
@@ -96,7 +96,7 @@ const Portfolio_Data = [
         span: "Daily taker",
         image1: note_taker_demo,
         image2: note_taker_responsive_img,
-        techniques: "HTML, CSS, JAVASCRIPT, EXPRESS, NODE JS, NPM UNIQUID",
+        techniques: "HTML | CSS | JAVASCRIPT | API | EXPRESS | NODE.JS",
         viewSite: "https://sheltered-falls-35987.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/note_taker_11"
 
@@ -107,7 +107,7 @@ const Portfolio_Data = [
         span: "Love Music & Movies",
         image1: project7_fullscreen_demo,
         image2: project7_responsive_img,
-        techniques: "HTML, CSS, JAVASCRIPT, JQUERY,API",
+        techniques: "HTML | CSS | JAVASCRIPT, JQUERY | API",
         viewSite: "https://oliviapark113.github.io/project7_group-1/",
         viewCode: "https://github.com/Oliviapark113/project7_group-1"
 
@@ -118,7 +118,7 @@ const Portfolio_Data = [
         span: "Dashboard",
         image1: weather_dashboard_fullscreen_img,
         image2: weather_dashboard_responsive_img,
-        techniques: "HTML, CSS, JAVASCRIPT, JQUERY,API",
+        techniques: "HTML | CSS | JAVASCRIPT, JQUERY | API",
         viewSite: "https://oliviapark113.github.io/weather_dashboard_06/",
         viewCode: "https://github.com/Oliviapark113/weather_dashboard_06"
 
@@ -129,7 +129,7 @@ const Portfolio_Data = [
         span: "Realtime Scheduler",
         image1: realtime_dayPlanner_fullscreen_img,
         image2: realtime_dayPlanner_responsive_img,
-        techniques: "HTML, CSS, JAVASCRIPT, JQUERY",
+        techniques: "HTML | CSS | JAVASCRIPT, JQUERY",
         viewSite: "https://oliviapark113.github.io/realtime_dayPlanner_5/",
         viewCode: "https://github.com/Oliviapark113/realtime_dayPlanner_5"
 
@@ -140,7 +140,7 @@ const Portfolio_Data = [
         span: "Timed Quiz",
         image1: timed_quiz_demo,
         image2: timed_quiz_responsive_img,
-        techniques: "HTML, CSS, JAVASCRIPT, JQUERY",
+        techniques: "HTML | CSS | JAVASCRIPT",
         viewSite: "https://oliviapark113.github.io/timed_quiz_box_4/",
         viewCode: "https://github.com/Oliviapark113/timed_quiz_box_4"
 
