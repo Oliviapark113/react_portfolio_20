@@ -74,7 +74,7 @@ const Portfolio_Data = [
         span: "Code until You're cold",
         image1: demofullview,
         image2: closet_responsive_img,
-        techniques: "HTML | HANDLEBARS.JS | CSS | JAVASCRIPT, JQUERY | EXPRESS | SEQUELIZE | NODE.JS",
+        techniques: "HANDLEBARS.JS | CSS | JAVASCRIPT, JQUERY | API | SEQUELIZE | EXPRESS | NODE.JS ",
         viewSite: "https://stormy-stream-41757.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/CodeCloset-P2"
 
@@ -85,7 +85,7 @@ const Portfolio_Data = [
         span: "DA Burgers",
         image1: eatda_burger_demo,
         image2: eatda_burger_responsive_img,
-        techniques: "HANDLEBARS.JS | CSS | JAVASCRIPT | EXPRESS | SEQUELIZE | NODE.JS",
+        techniques: "HANDLEBARS.JS | CSS | JAVASCRIPT | API | SEQUELIZE | EXPRESS | NODE.JS",
         viewSite: "https://evening-castle-79713.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/burgerapp_13"
 
