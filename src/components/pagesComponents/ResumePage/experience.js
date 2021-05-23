@@ -8,7 +8,7 @@ const Experience = () =>(
      <span className="position">Head Designer/Sportswear merchandiser</span> <br />
      <span className="year">July 2019-Current</span><span className="location">New York, NY</span><br/>
      <ul>
-     <li>Lead all aspects of design and merchandising for boutique women’s activewear for company </li>
+     <li>Lead all aspects of design and merchandising for boutique women’s activewear for company.</li>
      <li>Generated one million units in sales in specialty stores such as Burlington, T.J. Maxx for over six months period.</li>
      </ul>
      </p>
@@ -20,7 +20,7 @@ const Experience = () =>(
      <li>Managed the entire product design process to include colors, fabric, art direction, trim, sketching, CAD and fits as pertains to styling.</li>
      <li>Designed and created elevated fashion tops and dresses.</li>
      Generated three million incremental units in sales into Walmart Stores over a four-year period.
-     <li>Launched fashion tops, dresses and jumpsuit category that generates an average 450,000 units of business each season.</li>
+     <li>Launched fashion tops, dresses and jumpsuit category generating an average 450,000 units of business each season.</li>
      <li>Designed and developed a number of garments that have been featured on national magazine and catalogue covers.</li>
      </ul>
      </p>

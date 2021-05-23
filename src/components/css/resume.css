@@ -50,6 +50,9 @@
 .skills,.work-exp {
     padding:30px;
 }
+.skills{
+    line-height: 1.5;
+}
 
 .projects{
     display:block;
