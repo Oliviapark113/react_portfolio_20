@@ -92,3 +92,75 @@
 
 }
 
+@media screen and (max-width:768px){
+
+.mainbox
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   padding:0;
+   background: transparent;
+
+
+}
+
+p.my-address{
+    padding: 10px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+  
+}
+.resume-link:hover {
+    color:#212121;
+    transition: var(--size-animation-duration) ease;
+    box-shadow: 1px 1px 16px rgba(0,0,0,.75);
+    transform: scale(1.1)
+    
+}
+
+.resume-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0;
+    font-size: 18px;
+  
+}
+
+p.projects{
+    padding: 10px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+  
+}
+h3{
+    font-size: 28px;
+}
+.summary-para,
+.skills,
+.experiences,
+.education{
+    font-size: 22px;
+}
+
+p.education{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+}
+

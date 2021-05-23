@@ -106,14 +106,18 @@ font-size: 42px;
 
     }
 
+    .navbar-toggleBtn{
+        display: block;
+    }
+
     .navbar-icons {
         justify-content: center;
     width: 100%;
     display:none;}
 
-    .navbar-toggleBtn{
+    /* .navbar-toggleBtn{
         display: block;
-    }
+    } */
 
     .navbar-list.active,
     .navbar-icons.active{
