@@ -1,25 +1,38 @@
 .mainbox
 {
     background-color: whitesmoke; 
-    padding: 40px;
+    padding: 45px;
     margin-top: 30px;
     margin-bottom: 150px;
-
-}
-
-.resume-col{
     text-align: center;
     max-width: 100%;
-    margin: 0;
-    padding: 0;
+
 }
+
+.resume-link{
+    color:#212121
+    
+}
+
+.resume-link:hover {
+    color:#212121;
+    transition: var(--size-animation-duration) ease;
+    box-shadow: 1px 1px 16px rgba(0,0,0,.75);
+    transform: scale(1.5)
+    
+}
+
+
 
 .resume-row{
     display: block;
     margin: 0;
+  
 }
 .my-address{
     padding: 20px;
+    line-height: 1.5;
+  
 }
 
 .summary-contents{
