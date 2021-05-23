@@ -33,7 +33,7 @@ const ResumeContents = () => (
          </p>
      </div>
      <h3>PROJECTS</h3>
-     <div className="resume-row">
+     <div className="resume-row project-row">
      <p className="projects"> <span className="project-name"><i>MORNING CUP OF JAVASCRIPT</i></span><br />
           Code: <a href="https://github.com/Oliviapark113/morning_cup_of_javascript" target="_blank" rel="noreferrer" className="resume-link"><i>https://github.com/Oliviapark113/morning_cup_of_javascript</i></a><br />
           Site: <a href="https://secure-wave-92624.herokuapp.com/ " target="_blank" rel="noreferrer" className="resume-link" ><i>https://secure-wave-92624.herokuapp.com/</i></a><br />
@@ -119,7 +119,7 @@ const ResumeContents = () => (
      </div>
 
      <h3>EDUCATION</h3>
-     <div className="resume-row"> 
+     <div className="education-row"> 
      <p className="education"> <span className="degree"><i>Full Stack Flex Web Development Program</i></span><br />
      <span className="school-name">Northwestern University School of Professional Studies</span> <br /> 
      Evanston, IL <br />                                                  
