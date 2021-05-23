@@ -17,7 +17,7 @@ const Portfoilio = () => (
         {Portfolio_Data.map(data => {
             return (
 
-                <Row>
+                <Row className="portfolio-row">
                     <ProjectTitle>{data.projectTitleh3} <br /> <span id="service">{data.span} </span></ProjectTitle>
                     <div className="myphoto">
                         <div className="image-wrapper">
