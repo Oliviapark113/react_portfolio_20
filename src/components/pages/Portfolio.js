@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/portfolio.css"
-import Container from "../pagesComponents/Container"
 import Portfolio_Data from "../../utils/Portfolio_data"
 import Image1 from "../pagesComponents/PortfolioPage/image1"
 import Image2 from "../pagesComponents/PortfolioPage/image1"

@@ -75,7 +75,7 @@
     flex-wrap: nowrap;
  
  }
-.project-name, .additional{
+.project-name{
    font-weight: 400;
 }
 

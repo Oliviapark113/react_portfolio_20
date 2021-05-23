@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/style.css";
 import "./css/navbar.css";
-import Resume from "../components/pages/Resume"
+
 
 function Navbar({handlePageChange,currentPage,toggleBtn}) {
   return (
@@ -36,20 +36,20 @@ function Navbar({handlePageChange,currentPage,toggleBtn}) {
 
       <ul className="navbar-icons">
         <li className="hvr-icon-grow-rotate"><a href="https://github.com/Oliviapark113" target="_blank"
-          title="olivia's github">
+          title="olivia's github" rel="noreferrer">
           <i className="fab fa-github-square hvr-icon"></i>
         </a></li>
         <li className="hvr-icon-grow-rotate">
           <a href="https://www.linkedin.com/in/olivia-youngmee-park-74858651/" target="_blank"
-            title="olivia's linkedin">
+            title="olivia's linkedin" rel="noreferrer">
             <i className="fab fa-linkedin hvr-icon"></i></a>
         </li>
         <li className="hvr-icon-grow-rotate"><a href="mailto:oliviaypark113@gmail.com"
-          title="oliviaypark113@gmail.com"><i className="fas fa-envelope hvr-icon "></i></a>
+          title="oliviaypark113@gmail.com" rel="noreferrer"><i className="fas fa-envelope hvr-icon "></i></a>
           </li>
         <li className="hvr-icon-grow-rotate">
           <a href="#resume" onClick={() => handlePageChange("Resume")}
-            title="olivia's resume">
+            title="olivia's resume" rel="noreferrer">
             <i className="fas fa-file hvr-icon"></i></a>
             </li>
       </ul>
