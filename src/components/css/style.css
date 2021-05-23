@@ -114,6 +114,13 @@
                 font-weight:500;
                 font-size: 26px;
             }
+            .skill-icons{
+                list-style-type:none;
+                font-size: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
 
 
             .footer{
@@ -232,6 +239,11 @@
                 .skill-box{
                     margin-bottom: 15px;
                 }
+
+                .skill-icons{
+                 padding: 0;
+                }
+    
                 
                 .contact-mainbox { 
                     background-image: url('../../Portfolio_photos/media_bg_paper.jpg');

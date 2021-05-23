@@ -1,6 +1,7 @@
 import React from "react"
 
 
+
 const Skillset = () =>(
     <>
    <i className="fas fa-chalkboard-teacher skill"></i>
@@ -15,6 +16,13 @@ const Skillset = () =>(
       <li>MY SQL, SEQUELIZE</li>
       <li>MONGODB, MONGOOSE</li>
       <li>REACT, MERN</li>
+    </ul>
+    <ul className="skill-icons">
+      <li><i class="fab fa-html5"></i></li>
+      <li><i class="fab fa-css3-alt"></i> </li>
+      <li><i class="fab fa-js"></i></li>
+      <li><i class="fab fa-node"></i></li>
+      <li><i class="fab fa-react"></i></li>
     </ul>
     </>
 )

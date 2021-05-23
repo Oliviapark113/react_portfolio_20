@@ -11,6 +11,7 @@ import Skillset from "../pagesComponents/AboutPage/skillset";
 import Otherskillset from "../pagesComponents/AboutPage/otherskillset";
 import Biobox from "../pagesComponents/AboutPage/biobox"
 
+
 const About = () => (
   <Container>
     <Mainbox>
