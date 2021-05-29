@@ -4,7 +4,7 @@ import "../../css/style.css";
 
 const Skills = () =>(
     <p className="skills">
-    HTML | CSS | JAVASCRIPT/JQUERY | API | NODE.JS | EXPRESS | MYSQL, MONGODB, MONGOOSE | REACT | MERN | Adobe Illustrator and photoshop
+    HTML5 | CSS | JavaScript/JQUERY | API | NODE.JS | EXPRESS | MySQL, MongoDB, MONGOOSE | REACT | MERN | Adobe Illustrator and photoshop
    </p>
 )
 

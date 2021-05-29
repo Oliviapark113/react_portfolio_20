@@ -4,9 +4,9 @@ import "../../css/style.css";
 
 const Experience = () =>(
      <>
-     <p className="experiences"> <span className="company-name"><i>Ki pro Sportswear,</i> </span>
+     <p className="experiences"> <span className="company-name"><i>Ki pro Performance,</i> </span>
      <span className="position">Head Designer/Sportswear merchandiser</span> <br />
-     <span className="year">July 2019-Current</span><span className="location">New York, NY</span><br/>
+     <span className="year">Sept 2019-Current</span><span className="location">New York, NY</span><br/>
      <ul>
      <li>Lead all aspects of design and merchandising for boutique women’s activewear for company.</li>
      <li>Generated one million units in sales in specialty stores such as Burlington, T.J. Maxx for over six months period.</li>
